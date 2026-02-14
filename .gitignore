@@ -1,0 +1,31 @@
+### OS files
+.DS_Store
+Thumbs.db
+
+### Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+### Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+### Virtual environments
+.venv/
+venv/
+env/
+
+### Build and packaging
+build/
+dist/
+*.egg-info/
+
+### Testing and tooling cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+### Logs
+*.log
