@@ -55,13 +55,13 @@ def plot_images(number):
 
 
 def generate_images(number):
-    plt.figure(figsize=(10, 5)) # plot esempi
+    plt.figure(figsize=(10, 5)) # plot generate
 
     generated = generator(tf.random.normal([number, latent]), training=False)
 
     for i in range(len(generated)):
         plt.subplot(2, 3, i+1)
-        plt.imshow(images[i])
+        plt.imshow(generated[i])
         plt.axis("off")
 
 
